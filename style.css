@@ -8,6 +8,17 @@ body {
     color: #151C22;
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0 none;
+    clip-path: inset(100%);
+}
+
 .container {
     width: 1170px;
     margin: 0 auto;
@@ -57,11 +68,14 @@ body {
     margin-top: 25px;
 }
 
-.main {
+.promo {
+    /* display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px; */
     background-color: #F1F2F4;
 }
 
-.promo {
+.promo-wrapper {
     display: flex;
 }
 
@@ -75,12 +89,13 @@ body {
 
 .promo-text-column {
     width: 520px;
-    margin-top: 192px;
+    margin-top: 142px;
 }
 
 .promo-img-column {
     width: 430px;
     padding: 50px 50px;
+    padding-top: 50px;
 }
 
 .promo-name {
@@ -94,6 +109,7 @@ body {
     font-size: 18px;
     line-height: 21px;
     color: #727A82;
+    margin-bottom: 0;
 }
 
 .button-link {
