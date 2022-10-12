@@ -42,40 +42,79 @@
         </nav>
     </header>
     <main class="main">
-        <section class="promo">
-            <div class="container promo-wrapper">
-                <div class="promo-nav-catalog">
-                    <ul class="promo-list">
-                        <li class="promo-item">
-                            <a href="#" class="promo-link">All categories</a>
-                        </li>
-                        <li class="promo-item">
-                            <a href="#" class="promo-link">/</a>
-                        </li>
-                        <li class="promo-item">
-                            <a href="#" class="promo-link">Woman</a>
-                        </li>
-                        <li class="promo-item">
-                            <a href="#" class="promo-link">/</a>
-                        </li>
-                        <li class="promo-item">
-                            <a href="#" class="promo-link">Jackets</a>
-                        </li>
-                    </ul>
-                    <p class="promo-text-catalog">Denim Collection Fall 2019</p>
-                    <a class="visually-hidden" href="#">Go to next block</a>
-                </div>
-                <div class="promo-img-catalog">
-                    <img src="./img/we.png" width="299" height="260" alt="New collection">
-                </div>
-            </div>
+        <section class="card">
+            <h1 class="visually-hidden">Card Overalls</h1>
+            <img src="./img/img-cards/overallsm.png" width="400" height="523" alt="Фото">
+            <ul class="card-photo-sliders">
+                <li class="card-photo-item">
+                    <img src="./img/img-cards/over_slider1.png" width="85" height="113" alt="Фото 1">
+                </li>
+                <li class="card-photo-item">
+                    <img src="./img/img-cards/over_slider2.png" width="85" height="113" alt="Фото 2">
+                </li>
+                <li class="card-photo-item">
+                    <img src="./img/img-cards/over_slider3.png" width="85" height="113" alt="Фото 3">
+                </li>
+                <li class="card-photo-item">
+                    <img src="./img/img-cards/over_slider4.png" width="85" height="113" alt="Фото 4">
+                </li>
+            </ul>
+            <button class="card-prev-button" type="button">
+                <span>Previous</span>
+            </button>
+            <button class="card-next-button" type="button">
+                <span>Next</span>
+            </button>
+            <h2 class="card-title">Overalls</h2>
+            <p class="card-text">Overalls in washed organic cotton denim. Collar, button fly, and adjustable belt at waist. Chest pockets with flap. Long, gently flared sleeves and straight legs with front pockets and back pockets.</p>
+            <form action="#" method="post" class="card-oreder">
+                <fieldset class="card-order-field">
+                    <legend>Color</legend>
+                    <label>
+                        <input type="radio" id="card-order-lightblue" name="card-order-color" checked>
+                        <span>Lightblue</span>
+                    </label>
+                    <label>
+                        <input type="radio" id="card-order-blue" name="card-order-color" checked>
+                        <span>Blue</span>
+                    </label>
+                    <label>
+                        <input type="radio" id="card-order-gray" name="card-order-color" checked>
+                        <span>Gray</span>
+                    </label>
+                </fieldset>
+                <fieldset class="card-order-field">
+                    <legend>Size</legend>
+                    <label>
+                        <input type="radio" id="card-order-size-xs" name="card-order-size" checked>
+                        <span>XS</span>
+                    </label>
+                    <label>
+                        <input type="radio" id="card-order-size-s" name="card-order-size" checked>
+                        <span>S</span>
+                    </label>
+                    <label>
+                        <input type="radio" id="card-order-size-m" name="card-order-size" checked>
+                        <span>M</span>
+                    </label>
+                    <label>
+                        <input type="radio" id="card-order-size-l" name="card-order-size" checked>
+                        <span>L</span>
+                    </label>
+                    <label>
+                        <input type="radio" id="card-order-size-xs" name="card-order-size" checked>
+                        <span>XL</span>
+                    </label>
+                </fieldset>
+                <p class="card-price">$90</p>
+                <button class="button" type="submit">Add to card</button>
+            </form>
         </section>
         <section class="section-catalog container">
-            <div class="filter-block">
-                <select class="catalog-filter">
-                    <option>Filter by</option>
-                </select>
-            </div>
+            <header class="section-header">
+                <h2 class="section-title">Bestsellers</h2>
+                <a href="#" class="show-more">View all</a>
+            </header>
             <ul class="catalog-list-wrapper">
                 <li class="catalog-item">
                     <a href="#" class="catalog-item-link">
@@ -102,34 +141,6 @@
                     <a href="#" class="catalog-item-link">
                         <h3>Overalls</h3>
                         <img src="./img/img-catalog/Jacket50.png" alt="Jacket" width="243" height="270">
-                        <p class="catalog-item-price">$140</p>
-                    </a>
-                </li>
-                <li class="catalog-item">
-                    <a href="#" class="catalog-item-link">
-                        <h3>Overalls</h3>
-                        <img src="./img/img-catalog/Jacket40:2.png" alt="Jacket" width="243" height="270">
-                        <p class="catalog-item-price">$140</p>
-                    </a>
-                </li>
-                <li class="catalog-item">
-                    <a href="#" class="catalog-item-link">
-                        <h3>Overalls</h3>
-                        <img src="./img/img-catalog/Jacket110.png" alt="Jacket" width="243" height="270">
-                        <p class="catalog-item-price">$140</p>
-                    </a>
-                </li>
-                <li class="catalog-item">
-                    <a href="#" class="catalog-item-link">
-                        <h3>Overalls</h3>
-                        <img src="./img/img-catalog/Jacket35.png" alt="Jacket" width="243" height="270">
-                        <p class="catalog-item-price">$140</p>
-                    </a>
-                </li>
-                <li class="catalog-item">
-                    <a href="#" class="catalog-item-link">
-                        <h3>Overalls</h3>
-                        <img src="./img/img-catalog/Jacket85.png" alt="Jacket" width="243" height="270">
                         <p class="catalog-item-price">$140</p>
                     </a>
                 </li>

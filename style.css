@@ -350,11 +350,44 @@ body {
     margin: 0;
 }
 
+.filter-block {
+    text-align: right;
+}
+
 .catalog-filter {
     margin-top: 40px;
     width: 243px;
     height: 50px;
     background-color: #FFFFFF;
     border: 1px solid #000000;
-    
+}
+
+.catalog-item-price {
+    margin-top: 0;
+}
+
+.text-show-more {
+    text-align: center;
+    font-size: 18px;
+    line-height: 21px;
+    color: #151C22;
+    margin-bottom: 0;
+}
+
+.button-block-more {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 130px;
+}
+
+.line {
+    display: block;
+    unicode-bidi: isolate;
+    -webkit-margin-before: 0.5em;
+    -webkit-margin-after: 0.5em;
+    -webkit-margin-start: auto;
+    -webkit-margin-end: auto;
+    overflow: hidden;
+    width: 200px;
+    color: #E5E5E5;
 }
