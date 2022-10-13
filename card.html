@@ -44,75 +44,81 @@
     <main class="main">
         <section class="card">
             <h1 class="visually-hidden">Card Overalls</h1>
-            <img src="./img/img-cards/overallsm.png" width="400" height="523" alt="Фото">
-            <ul class="card-photo-sliders">
-                <li class="card-photo-item">
-                    <img src="./img/img-cards/over_slider1.png" width="85" height="113" alt="Фото 1">
-                </li>
-                <li class="card-photo-item">
-                    <img src="./img/img-cards/over_slider2.png" width="85" height="113" alt="Фото 2">
-                </li>
-                <li class="card-photo-item">
-                    <img src="./img/img-cards/over_slider3.png" width="85" height="113" alt="Фото 3">
-                </li>
-                <li class="card-photo-item">
-                    <img src="./img/img-cards/over_slider4.png" width="85" height="113" alt="Фото 4">
-                </li>
-            </ul>
-            <button class="card-prev-button" type="button">
-                <span>Previous</span>
-            </button>
-            <button class="card-next-button" type="button">
-                <span>Next</span>
-            </button>
-            <h2 class="card-title">Overalls</h2>
-            <p class="card-text">Overalls in washed organic cotton denim. Collar, button fly, and adjustable belt at waist. Chest pockets with flap. Long, gently flared sleeves and straight legs with front pockets and back pockets.</p>
-            <form action="#" method="post" class="card-oreder">
-                <fieldset class="card-order-field">
-                    <legend>Color</legend>
-                    <label>
-                        <input type="radio" id="card-order-lightblue" name="card-order-color" checked>
-                        <span>Lightblue</span>
-                    </label>
-                    <label>
-                        <input type="radio" id="card-order-blue" name="card-order-color" checked>
-                        <span>Blue</span>
-                    </label>
-                    <label>
-                        <input type="radio" id="card-order-gray" name="card-order-color" checked>
-                        <span>Gray</span>
-                    </label>
-                </fieldset>
-                <fieldset class="card-order-field">
-                    <legend>Size</legend>
-                    <label>
-                        <input type="radio" id="card-order-size-xs" name="card-order-size" checked>
-                        <span>XS</span>
-                    </label>
-                    <label>
-                        <input type="radio" id="card-order-size-s" name="card-order-size" checked>
-                        <span>S</span>
-                    </label>
-                    <label>
-                        <input type="radio" id="card-order-size-m" name="card-order-size" checked>
-                        <span>M</span>
-                    </label>
-                    <label>
-                        <input type="radio" id="card-order-size-l" name="card-order-size" checked>
-                        <span>L</span>
-                    </label>
-                    <label>
-                        <input type="radio" id="card-order-size-xs" name="card-order-size" checked>
-                        <span>XL</span>
-                    </label>
-                </fieldset>
-                <p class="card-price">$90</p>
-                <button class="button" type="submit">Add to card</button>
+            <div class="container card-wrapper">
+                <div class="card-photos-column">
+                    <img src="./img/img-cards/overallsm.png" width="400" height="523" alt="Фото">
+                    <ul class="card-photo-sliders">
+                        <li class="card-photo-item">
+                            <img src="./img/img-cards/over_slider1.png" width="85" height="113" alt="Фото 1">
+                        </li>
+                        <li class="card-photo-item">
+                            <img src="./img/img-cards/over_slider2.png" width="85" height="113" alt="Фото 2">
+                        </li>
+                        <li class="card-photo-item">
+                            <img src="./img/img-cards/over_slider3.png" width="85" height="113" alt="Фото 3">
+                        </li>
+                        <li class="card-photo-item">
+                            <img src="./img/img-cards/over_slider4.png" width="85" height="113" alt="Фото 4">
+                        </li>
+                    </ul>
+                    <button class="card-prev-button" type="button">
+                        <span>Previous</span>
+                    </button>
+                    <button class="card-next-button" type="button">
+                        <span>Next</span>
+                    </button>
+                </div>
+                <div class="card-description-column">
+                    <h2 class="card-title">Overalls</h2>
+                <p class="card-text">Overalls in washed organic cotton denim. Collar, button fly, and adjustable belt at waist. Chest pockets with flap. Long, gently flared sleeves and straight legs with front pockets and back pockets.</p>
+                <form action="#" method="post" class="card-oreder">
+                    <fieldset class="card-order-field">
+                        <legend>Color</legend>
+                        <label>
+                            <input type="radio" id="card-order-lightblue" name="card-order-color" checked>
+                            <span>Lightblue</span>
+                        </label>
+                        <label>
+                            <input type="radio" id="card-order-blue" name="card-order-color" checked>
+                            <span>Blue</span>
+                        </label>
+                        <label>
+                            <input type="radio" id="card-order-gray" name="card-order-color" checked>
+                            <span>Gray</span>
+                        </label>
+                    </fieldset>
+                    <fieldset class="card-order-field">
+                        <legend>Size</legend>
+                        <label>
+                            <input type="radio" id="card-order-size-xs" name="card-order-size" checked>
+                            <span>XS</span>
+                        </label>
+                        <label>
+                            <input type="radio" id="card-order-size-s" name="card-order-size" checked>
+                            <span>S</span>
+                        </label>
+                        <label>
+                            <input type="radio" id="card-order-size-m" name="card-order-size" checked>
+                            <span>M</span>
+                        </label>
+                        <label>
+                            <input type="radio" id="card-order-size-l" name="card-order-size" checked>
+                            <span>L</span>
+                        </label>
+                        <label>
+                            <input type="radio" id="card-order-size-xs" name="card-order-size" checked>
+                            <span>XL</span>
+                        </label>
+                    </fieldset>
+                    <p class="card-price">$90</p>
+                    <button class="button" type="submit">Add to card</button>
+                </div>
+            </div>
             </form>
         </section>
         <section class="section-catalog container">
             <header class="section-header">
-                <h2 class="section-title">Bestsellers</h2>
+                <h2 class="section-title">You may also like</h2>
                 <a href="#" class="show-more">View all</a>
             </header>
             <ul class="catalog-list-wrapper">
@@ -145,13 +151,6 @@
                     </a>
                 </li>
             </ul>
-        </section>
-        <section class="section-more container">
-            <p class="text-show-more">Showing 9 of 45 items</p>
-            <hr class="line">
-            <div class="button-block-more">
-                <a href="#" class="button-link">Load more</a>
-            </div>
         </section>
     </main>
     <footer class="footer">
